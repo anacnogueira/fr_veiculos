@@ -1,0 +1,91 @@
+/* FORM ELEMENTS */
+ fieldset {
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	padding: 16px 16px;
+}
+fieldset legend {
+
+	font-size: 150%;
+	font-weight: bold;
+}
+fieldset fieldset {
+  border: none;
+	margin-top: 0px;
+	margin-bottom: 20px;
+   margin-left: 5em;
+	padding: 16px 10px;
+}
+fieldset fieldset legend {
+	font-size: 110%;
+	font-size: 110%;
+
+}
+fieldset fieldset div {
+	clear: left;
+	margin: 0 20px;
+}
+
+ label{
+  width: 10em;
+  float: left;
+  text-align:left;
+  margin-right: 0.5em;
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+ select,input,textarea{
+
+  margin: 3px;
+  border: 1px solid #999;
+  padding: 2px;
+}
+
+input[type=radio],input[type=checkbox]{
+  width: auto;
+}
+
+input[type=submit],input[type=button], input[type=image],input.submit{
+  position: relative;
+  width: auto;
+
+  border: none;
+}
+
+input.submit_left{  margin-left: 0; }
+
+span.instrucoes{
+ display:inline;
+ color: #666;
+ font-size:10px;
+}
+/* TAMANHO DE CAMPOS ESPECIAIS */
+input.telefone{ width: 90px; }
+
+input.data{ width: 67px; }
+
+input.hora{ width: 44px; }
+
+input.cep{ width: 67px; }
+
+input.cpf{ width: 95px; }
+
+input.custom{ width: auto; }
+
+ /* FIM TAGS BÁSICAS */
+div.error-message{
+  width: 250px;
+  margin-top:6px;
+  color: #f00;
+  float: right;
+}
+
+div#flashMessage {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+

@@ -1,0 +1,391 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, del, em, font, img, small, strike, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* TAGS BÁSICAS */
+body{
+  background-color: #fff;
+  font-family: verdana;
+  font-size: 12px;
+}
+p{ padding: 5px;  }
+li { list-style-type: none; }
+
+h2 {
+  font-size: 24px;
+  color: #933;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+table{
+  background: #fff;
+	border:1px solid #ccc;
+	border-right:0;
+	clear: both;
+	color: #333;
+	margin-bottom: 10px;
+	width: 100%;
+
+}
+th {
+	background: #f2f2f2;
+	border:1px solid #bbb;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	text-align: center;
+  color:#933;
+}
+th a {
+	background:#f2f2f2;
+  color:#933;
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+th a:hover {
+	background: #ccc;
+	color: #333;
+	text-decoration: none;
+}
+table tr td{
+	background: #fff;
+	border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+	padding: 4px;
+	text-align: center;
+	vertical-align: top;
+}
+table tr td:last_child { border-bottom: none;}
+
+td.actions {
+	text-align: center;
+	white-space: nowrap;
+}
+td.actions a {
+	margin: 0px 6px;
+  text-decoration: none;
+  color: #003;
+}
+
+table.none, table.none tr td{
+  border:  none;
+  margin: 0px;
+  padding: 5px;
+  width: auto;
+  text-align: left;
+  vertical-align:bottom;
+}
+
+/* Scaffold View */
+dl {
+	line-height: 2em;
+	margin: 0em 0em;
+	width: 100%;
+}
+dl.altrow {
+	background: #f4f4f4;
+}
+dt {
+	font-weight: bold;
+	padding-left: 4px;
+  vertical-align: top;
+}
+dd {
+	margin-left: 13em;
+	margin-top: -2em;
+	vertical-align: top;
+
+}
+
+/* Paging */
+ div.paging {
+  clear: both;
+  background:#fff;
+	color: #ccc;
+  text-align: center;
+  margin-bottom: 2em;
+}
+div.paging div.disabled {
+	color: #ddd;
+	display: inline;
+}
+div.paging span {
+}
+div.paging span.current { color: #000; }
+div.paging span a {}
+
+/*  Actions  */
+div.actions ul {
+	margin: 0px 0;
+	padding: 0;
+}
+div.actions li {
+	display: inline;
+	list-style-type: none;
+	line-height: 2em;
+	margin: 0 2em 0 0;
+	white-space: nowrap;
+}
+div.actions ul li a {
+	background:#fff;
+	color: #003;
+	text-decoration: none;
+}
+div.actions ul li a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+/* TOPO */
+
+div#top div.logo_sipac{
+ float: left;
+ margin: 5px;
+
+}
+div#top div.logo_empresa{
+ float: right;
+ margin: 5px;
+}
+div#top div.logo_empresa span{
+ font-size: 10px;
+ position: absolute;
+ top: 30px;
+ right: 250px;
+}
+
+/* FORM ELEMENTS */
+select#VehicleModeloId{ width: 200px; } 
+
+input,textarea,select{
+   border: 1px solid #ccc;
+   padding: 5px;
+   margin: 3px;
+ }
+ input,textarea{ width: 270px; }
+
+label{
+  width: 10em;
+  float: left;
+  text-align:left;
+  margin-right: 0.5em;
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+
+}
+
+ fieldset {
+	border: 1px solid #ccc;
+	margin-top: 30px;
+	padding: 16px 20px;
+}
+fieldset legend {
+	background:#fff;
+	color: #000;
+	font-size: 110%;
+	font-weight: bold;
+}
+fieldset fieldset {
+  border: none;
+	margin-top: 0px;
+	margin-bottom: 20px;
+   margin-left: 5em;
+	padding: 16px 10px;
+}
+fieldset fieldset legend {
+	font-size: 110%;
+	font-size: 110%;
+
+}
+fieldset fieldset div {
+	clear: left;
+	margin: 0 20px;
+}
+
+
+input[type=radio],input[type=checkbox]{
+  width: auto;
+}
+div.submit{ text-align: center;clear: both; }
+
+input[type=submit],input[type=button],button{
+  width:auto;
+  padding: 3px;
+  margin: 3px;
+  background: #ccc;
+  font-family:arial;
+  font-weight: bold;
+  color: #000;
+  font-size: 13px;
+  border: none;
+
+}
+span.instrucoes{
+ display:inline;
+ color: #666;
+ font-size:10px;
+}
+
+/* TAMANHO DE CAMPOS ESPECIAIS */
+input.telefone{ width: 95px; }
+
+input.data{ width: 77px; }
+
+input.hora{ width: 35px; }
+
+input.cep{ width: 77px; }
+
+input.cpf{ width: 99px; }
+
+input.cnpj{ width: 115px; }
+
+input.custom{ width: auto; }
+
+
+div.error-message{
+  width: 279px;
+  margin-top:6px;
+  margin-bottom:6px;
+  color: #f00;
+  float: right;
+}
+
+div#flashMessage {
+  clear: both;
+  color: #933;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+/* FOOTER */
+#footer{
+  position: relative;
+  bottom: 0;
+  background:#fff;
+  color: #333;
+  font-size: 10px;
+  padding: 5px;
+  width: 98%;
+  margin-top: 10px;
+
+}
+
+#footer .left{ float: left; margin-top: 40px;  }
+#footer .right{ float: right; }
+
+.imagem_pri{
+  position:relative;
+  margin-left: -10px;
+  margin-bottom: 20px;
+}
+
+/* MENU USUARIO */
+div.menu_login{
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+}
+div.menu_login ul li{ display:  inline; }
+div.menu_login ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* NAVIGATION MENU */
+div.menu{
+  clear: both;
+  background-color: #efefef;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+div.menu ul li{
+  margin: 1.5em;
+  display:  inline;
+}
+
+div.menu ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+/* MAIN CONTENT CONTAINER */
+div#main_content_container  {
+ padding: 10px;
+ clear: both;
+ min-height: 350px;
+ height:auto !important;
+ height: 350px;
+}
+div#main_content_container_aux  {
+ min-height: auto;
+ height: auto;
+}
+/* LOADING SPINNER AJAX */
+div.spinner{
+  float: right;
+  margin-top: -35px;
+  color: #4D8EBC;
+  width: 85%;
+  height: 21px;
+  background: transparent url(../img/spinner.gif) no-repeat center;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 13%; 
+}
+
+/* LISTAGEM DE FOTOS */
+.box {
+ position: relative;
+ display:block;
+ width:222px;
+ float:left;
+ margin-bottom:15px;
+ text-align:center;
+ height: 210px;
+
+}
+
+ .box img{ height: 110px; vertical-align: middle;}
+
+
+.box p {
+	padding:1px;
+	display:block;
+ }
+
+.box p.desc,.box p.detalhes a {
+  text-decoration: none;
+	margin:0px;
+	padding:0px;
+  color: #000;
+
+}
+
+/* FOTO ATUAL */
+div.foto_atual{
+  display: block;
+  clear:both;
+}
+
+
+
+/* EDITOR */
+div.inline { float:left; }
+div.inline.right{
+ margin: 5px 2px;
+
+}
+
+#list_images{
+  clear: both;
+  overflow: auto;
+}

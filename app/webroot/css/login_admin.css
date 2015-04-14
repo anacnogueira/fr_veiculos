@@ -1,0 +1,72 @@
+/* LOGIN */
+div.space{
+   clear: both;
+   padding: 50px;
+}
+
+div#main_content_container,div#conteudo {
+  margin: 0 auto;
+  width: 350px;
+
+  text-align:center;
+
+}
+div#conteudo {
+ margin-left: 250px;
+
+}
+div#conteudo div.space{
+ padding: 20px;
+}
+div.login{
+   
+   border: 1px solid #ccc;
+   width: 292px;
+   margin: 0 auto;
+   margin-bottom: 10px;
+   padding: 20px;
+   /* shadow */
+   -moz-box-shadow: 5px 5px 5px #888;
+  -webkit-box-shadow: 5px 5px 5px #888;
+   box-shadow: 5px 5px 5px #888;
+   /* round corner */
+   -moz-border-radius: 10px;
+   -khtml-border-radius: 10px;
+   -webkit-border-radius: 10px;
+   border-radius: 10px;
+}
+ div.tips{
+   text-align: left;
+   margin-left: 10px;
+ }
+
+div.tips ul li{
+  list-style-type: disc;
+  margin-left: 15px;
+}
+
+div.login label{
+  display: block;
+  font-weight: bold;
+  margin: 0;
+  text-align:left; 
+}
+   input{
+     width:270px;
+   }
+
+div.login div.input{
+  padding: 5px;
+}
+
+div.login input[type=submit] {
+  margin-left:0.5em;
+}
+
+span.esqueceu_senha {
+  display: block;
+  width: 110px;
+  margin: 10px auto;
+
+}
+

@@ -1,0 +1,346 @@
+@charset "utf-8";
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, del, em, font, img, small, strike, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/** General Style Info **/
+body {
+	background: #fff;
+	color: #000;
+	font-family:arial,verdana,helvetica,sans-serif;
+	font-size:80%;
+	margin: 0;
+  text-align:center;
+}
+li{ list-style-type: none; }
+
+a img{ border: none; }
+a { color: #0000ff; }
+
+
+h1{
+  font-size: 280%;
+  color: #003366;
+}
+
+h2{
+  font-size: 180%;
+  color: #003366;
+}
+fieldset{
+  border: 1px solid #ccc;
+}
+legend{
+  font-size: 1.5em;
+  color: #666;
+  font-weight: bold;
+}
+div.form_col{
+  border: 1px soli black;
+  width: 50%;
+  float: left;
+}
+
+div#container{
+  position:relative;
+  background: #fff;
+  margin: 0 auto;
+  text-align:left;
+}
+
+div.header{
+  background: url(../img/img_bkg_top.jpg) no-repeat top right;
+}
+#content{
+  position: relative;
+  min-height: 235px;
+  margin: 8px;
+  border: 1px solid red;
+}
+/* MENU */
+.menu {
+   position: relative;
+   background: #fff;
+   height: 30px;
+   padding: 5px;
+   border-top: 2px solid #ccc;
+   border-bottom: 2px solid #ccc;
+   width: 99%;
+}
+
+.menu, .menu ul {
+  list-style: none;
+  position: relative;
+}
+
+.menu li {
+  float: left;
+  text-align: center;
+  line-height: 2.3em;
+ }
+
+.menu a {
+  position: relative;
+  display: block;
+  padding: 3px 3px 3px 0;
+  width: 10em;
+  font-size: 18px;
+  color: #999;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+.menu a:hover {
+  color: #333;
+}
+
+/* SEARCH */
+div.search{
+  clear:both;
+  width: 98%;
+  margin: 4px auto;
+}
+select#VehicleModeloId{ width: 200px; }
+
+div.search div{
+ float: left;
+ width: 33%;
+}
+
+div.search div label{
+ width: auto;
+}
+/* HOME */
+div.all{
+  width: 100%;
+  position: relative;
+  border: 1px solid blue;
+  overflow: auto;
+}
+
+div.sections>div{
+  position: relative;
+  float: left;
+  width: 40%;
+   border: 1px solid black;
+}
+/*
+div.sections>div>div{
+  width: 280px;
+  height: 70px;
+  clear: both;
+  margin-left: 1%;
+  margin-bottom: 20px;  border: 1px solid black;
+}
+
+
+div.sections>div img {
+  float: left;
+  margin-right: 5px;
+}
+
+div.sections>div h1{
+  color: #003366;
+  font-size: 20px;
+  background: url(../img/bkg_topic_home.png) no-repeat;
+  font-family: arial;
+  width: 275px;
+  height: 35px;
+  padding: 19px 0  0 19px;
+}
+
+div.sections>div span{
+  display: block;
+}
+
+div.sections>div h4, div.sections>div h4 a{
+  color: #336699;
+  text-align: left;
+  text-decoration: none;
+}
+
+div.sections>div span.price{
+ font-weight: bold;
+}
+
+div.sections>div a{
+  width: 280px;
+  font-weight: bold;
+  text-align: right;
+  display: block;
+}
+   */
+/* FOOTER */
+div.footer{
+  clear: both;
+  position: relative;
+  bottom: 0;
+  background:#333;
+  color: #CCC;
+  font-size: 11px;
+  padding: 5px;
+  height: 15px;
+  margin-top: 10px;
+  margin-left: -10px;
+  margin: 0 auto;
+}
+
+.footer .left{ float: left;  }
+.footer .right{ float: right; }
+/* Veículos */
+div.vehicles div{
+  float: left;
+  border: 1px solid black;
+}
+img.thumb{
+  width: 79px;
+  height:: 63px;
+}
+
+/*Veiculo DETALHE */
+div.title_vehicle h1, div.title_vehicle h2{
+ float: left;
+}
+
+div.title_vehicle  h2{
+ font-size: 160%;
+ color: #666;
+ margin: 10px;
+}
+div.galeria, div.info{
+
+  float: left;
+}
+ div.galeria{   width: 65%; }
+
+ div.info{
+   width: 31%;
+  margin-left: 15px;
+ }
+
+ div.info .price{
+   font-size: 170%;
+   color: #036;
+   padding-bottom: 15px;
+ }
+ div.opt1{
+   color: #036;
+   font-weight: bold;
+ }
+
+ div.agendar{
+   clear: both;
+   margin-left: 15px;
+ }
+
+ /* SERVIÇOS */
+div.servicos div{
+  float: left;
+  width: 49%;
+  margin-bottom: 30px;
+}
+
+div.servicos div>img{
+  float: left;
+  margin-right: 10px;
+}
+div.contact{
+  clear: both;
+}
+
+ /*NOTÍCIAS */
+ img.news_image{
+   margin-right: 10px;
+ }
+
+/* PAGINAÇÃO */
+ /*   div.pagination{
+  clear: both;
+  background:#fff;
+	color: #ccc;
+  text-align: center;
+  margin-bottom: 2em;
+ position: relative;
+}
+
+ div.pagination {
+
+   border: 1px solid black;
+ }
+
+div.pagination span.numbers  a{
+
+  background: url(../img/pag.jpg) no-repeat top left;
+  max-height: 20px;
+  padding-top: 14px;
+  width: 10px;
+  height: 2px;
+  overflow: hidden;
+  margin-right: 5px;
+  margin-top: -2px;
+
+}
+
+div.pagination span.selected{
+
+  background: url(../img/pag_selected.jpg) no-repeat;
+  max-height: 20px;
+  padding-top: 14px;
+  width: 10px;
+  height: 2px;
+  display: block;
+  overflow: hidden;
+  margin-right: 5px;
+}
+ */
+ /** Paging **/
+.paging {
+  clear: both;
+  background:#fff;
+	color: #ccc;
+  text-align: center;
+  margin-bottom: 2em;
+}
+.paging .current,
+.paging .disabled,
+.paging a {
+	text-decoration: none;
+	padding: 5px 8px;
+	display: inline-block
+}
+.paging > span {
+	display: inline-block;
+	border: 1px solid #ccc;
+}
+.paging > span:hover {
+	background: #efefef;
+}
+.paging .prev {
+	border-left: 1px solid #ccc;
+	-moz-border-radius: 4px 0 0 4px;
+	-webkit-border-radius: 4px 0 0 4px;
+	border-radius: 4px 0 0 4px;
+}
+.paging .next {
+	-moz-border-radius: 0 4px 4px 0;
+	-webkit-border-radius: 0 4px 4px 0;
+	border-radius: 0 4px 4px 0;
+}
+.paging .disabled {
+	color: #ddd;
+}
+.paging .disabled:hover {
+	background: transparent;
+}
+.paging .current {
+	background: #efefef;
+	color: #c73e14;
+}

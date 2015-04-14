@@ -1,0 +1,38 @@
+div#sidebar{
+  position: relative;
+  float: right;
+  width: 260px;
+  font-size: 12px;
+
+  text-align:justify;
+}
+
+div#sidebar h2{
+  font-size: 14px;
+  border-bottom: 3px solid #000;
+  margin-bottom: 10px;
+}
+
+div#sidebar div{
+ position: relative;
+  margin-bottom: 10px;
+  clear: both;  
+}
+
+
+div.eventos img{ width: 60px; }
+
+div.eventos div{ position: relative; }
+
+div.eventos span.img {
+ position: relative;
+ float: left;
+ width: 60px;
+ margin-right: 5px;
+ margin-bottom: 5px;
+}
+
+div.eventos a{
+ text-decoration: none;
+ color: #CCC;
+}
